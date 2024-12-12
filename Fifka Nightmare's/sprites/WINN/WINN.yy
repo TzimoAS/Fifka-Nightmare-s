@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "name":"1 chapter",
+    "path":"folders/Спрайты/Nightmare/1 chapter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,8 +8,8 @@
   "name":"Room_5",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"ui",
+    "path":"folders/Объекты/Nightmare/Chapter1/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

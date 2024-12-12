@@ -1067,8 +1067,8 @@
   ],
   "name":"rm_test_3",
   "parent":{
-    "name":"Румы",
-    "path":"folders/Румы.yy",
+    "name":"Nightmare",
+    "path":"folders/Румы/Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

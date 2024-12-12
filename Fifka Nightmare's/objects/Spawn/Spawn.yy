@@ -9,8 +9,8 @@
   "name":"Spawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"Objects",
+    "path":"folders/Объекты/Nightmare/Chapter1/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

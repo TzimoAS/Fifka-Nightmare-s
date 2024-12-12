@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "name":"Fifka",
+    "path":"folders/Спрайты/Nightmare/Fifka.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

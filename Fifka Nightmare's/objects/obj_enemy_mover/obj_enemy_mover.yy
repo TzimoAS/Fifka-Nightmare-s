@@ -13,8 +13,8 @@
   "name":"obj_enemy_mover",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"enemys",
+    "path":"folders/Объекты/Nightmare/Chapter1/enemys.yy",
   },
   "parentObjectId":null,
   "persistent":false,

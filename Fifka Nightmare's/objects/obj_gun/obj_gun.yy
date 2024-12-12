@@ -8,8 +8,8 @@
   "name":"obj_gun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"player",
+    "path":"folders/Объекты/Nightmare/Chapter1/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

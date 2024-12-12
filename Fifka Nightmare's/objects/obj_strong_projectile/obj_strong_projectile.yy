@@ -14,8 +14,8 @@
   "name":"obj_strong_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"projectiles",
+    "path":"folders/Объекты/Nightmare/Chapter1/projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
