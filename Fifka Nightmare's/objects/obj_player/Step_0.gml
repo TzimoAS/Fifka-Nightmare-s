@@ -14,6 +14,12 @@ if (place_meeting(x + xMove * spd, y, obj_wall_breakable)) {
 if (place_meeting(x, y + yMove * spd, obj_wall_breakable)) {
     yMove = 0;
 }
+if (place_meeting(x + xMove * spd, y, obj_wall_dash)) {
+    xMove = 0;
+}
+if (place_meeting(x, y + yMove * spd, obj_wall_dash)) {
+    yMove = 0;
+}
 
 // Apply movement
 x += xMove * spd;
@@ -82,7 +88,6 @@ if keyboard_check_pressed(vk_f4)
         window_set_fullscreen(true);
     }
 }
-
 if (keyboard_check(vk_f2)) {
 	audio_stop_all();
     game_restart();
