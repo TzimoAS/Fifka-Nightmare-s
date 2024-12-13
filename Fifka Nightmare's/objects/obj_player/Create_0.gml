@@ -17,3 +17,21 @@ sprite[6] = spr_move_alt;
 sprite[7] = spr_move_alt;
 sprite[8] = spr_idle;
 goldKeys=0;
+max_cooldown_width = 200; // Максимальная ширина полоски кулдауна
+
+function draw_cooldown(x, y, current_cooldown, max_cooldown, color, text){
+    var width = clamp((max_cooldown - current_cooldown) / max_cooldown * max_cooldown_width, 0, max_cooldown_width);
+    draw_set_color(color);
+    draw_rectangle(x, y, x + width, y + 20, false);
+    draw_set_color(c_white);
+    draw_text(x + width + 10, y, text);
+}
+
+function draw_cooldown(x, y, current_cooldown, max_cooldown, color, text){
+    var width = clamp((max_cooldown - current_cooldown) / max_cooldown * max_cooldown_width, 0, max_cooldown_width);
+    var fill_color = current_cooldown <= 0 ? c_lime : color;
+    draw_set_color(fill_color);
+    draw_rectangle(x, y, x + width, y + 20, false);
+    draw_set_color(c_white);
+    draw_text(x + width + 10, y, text);
+}
