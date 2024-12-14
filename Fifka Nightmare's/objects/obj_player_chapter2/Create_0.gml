@@ -1,4 +1,4 @@
-spd = 2;
+spd = 4;
 
 cooldown = 0;
 cooldown_value = 0.45;
@@ -6,14 +6,14 @@ cooldown_value = 0.45;
 cooldown_2 = 0;
 cooldown_value_2 = 10;
 
-dashing = false;
-dash_speed = 20;
-dash_duration = 0.2;
-dash_cooldown = 0;
-dash_cooldown_duration = 5; // Уменьшил кулдаун для тестирования
-dash_xdir = 0;
-dash_ydir = 0;
-dash_timer = 0;
+
+dashing = false;      // Флаг, показывает, выполнятся ли рывок сейчас
+dash_speed = 15;       // Скорость рывка
+dash_duration = 0.2;  // Продолжительность рывка в секундах
+dash_timer = 0;        // Таймер рывка
+dash_cooldown = 0;     // Кулдаун рывка
+dash_cooldown_value = 1; // Время кулдауна рывка
+dash_direction = 0;   // Направление рывка (нужно для движения)
 
 sprite = array_create(8);
 sprite[0] = spr_move;
@@ -43,19 +43,17 @@ function draw_cooldown(x, y, current_cooldown, max_cooldown, color, text){
     draw_rectangle(x, y, x + width, y + 20, false);
     draw_set_color(c_white);
     draw_text(x + width + 10, y, text);
+
 }
 
 function Vector2(_x, _y) constructor {
     x = _x;
     y = _y;
 }
-
-/// Vector2 Magnitude
 function magnitude() {
     return sqrt(x*x + y*y);
 }
 
-/// Vector2 Normalize
 function normalize() {
     var mag = magnitude();
     if (mag > 0) {

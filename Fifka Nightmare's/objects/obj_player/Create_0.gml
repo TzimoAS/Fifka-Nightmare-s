@@ -1,4 +1,5 @@
-spd = 4;
+//spd = 4;
+spd=4;
 
 cooldown = 0;
 cooldown_value = 0.45;

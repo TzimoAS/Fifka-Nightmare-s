@@ -1,1 +1,1 @@
-room_goto(rm_test_pre_win);
+room_goto(rm_test_6);
