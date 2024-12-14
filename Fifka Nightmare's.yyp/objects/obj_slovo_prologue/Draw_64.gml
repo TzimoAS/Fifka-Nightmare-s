@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite_to_fade, 0, 640, 150, 1, 1, 0, c_white, image_alpha);

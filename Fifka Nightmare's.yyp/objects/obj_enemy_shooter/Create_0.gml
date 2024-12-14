@@ -1,0 +1,12 @@
+sounds = [snd_enemy_shooter_sound1, snd_enemy_shooter_sound2,snd_enemy_shooter_sound3,snd_enemy_shooter_sound4,snd_enemy_shooter_sound5,snd_enemy_shooter_sound6];
+image_speed = 1;
+death_sound = DEAD
+sound_timer = 0;
+next_sound_time = 0;
+shoot_cooldown = 0; // Cooldown timer for shooting
+shoot_rate = 2; // Seconds between shots
+player = obj_player; // Reference to the player object
+hp = 2;
+sound_timer = 0;
+next_sound_time = random_range(5, 15);
+player_detected = false; // Flag to track player detection
