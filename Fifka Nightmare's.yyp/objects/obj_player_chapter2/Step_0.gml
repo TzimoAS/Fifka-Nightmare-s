@@ -3,16 +3,22 @@ var yMove = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 // 1. Проверка столкновений и движения во время ОБЫЧНОЙ ходьбы (не рывок)
 if (!dashing) {
-    if (place_meeting(x + xMove * spd, y, obj_wall) || place_meeting(x + xMove * spd, y, obj_wall_breakable)) {
+    if (place_meeting(x + xMove * spd, y, obj_wall) || place_meeting(x + xMove * spd, y, obj_wall_breakable) || place_meeting(x + xMove * spd, y, obj_wall_1)) {
         xMove = 0;
     }
-    if (place_meeting(x, y + yMove * spd, obj_wall) || place_meeting(x, y + yMove * spd, obj_wall_breakable)) {
+    if (place_meeting(x, y + yMove * spd, obj_wall) || place_meeting(x, y + yMove * spd, obj_wall_breakable) || place_meeting(x, y + yMove * spd, obj_wall_1)) {
         yMove = 0;
     }
     if (place_meeting(x + xMove * spd, y, obj_wall_dash)) {
         xMove = 0;
     }
     if (place_meeting(x, y + yMove * spd, obj_wall_dash)) {
+        yMove = 0;
+    }
+    if (place_meeting(x + xMove * spd, y, obj_wall_dash_1)) {
+        xMove = 0;
+    }
+    if (place_meeting(x, y + yMove * spd, obj_wall_dash_1)) {
         yMove = 0;
     }
     x += xMove * spd;
@@ -37,13 +43,19 @@ if (dashing) {
     var dash_y = y + lengthdir_y(dash_speed, dash_direction);
 	
     // Проверяем столкновение со всеми типами стен во время рывка
-    if (!place_meeting(dash_x, dash_y, obj_wall) && !place_meeting(dash_x, dash_y, obj_wall_breakable))
+    if (!place_meeting(dash_x, dash_y, obj_wall) && !place_meeting(dash_x, dash_y, obj_wall_breakable) && !place_meeting(dash_x, dash_y, obj_wall_1))
     {
 		// Если столкнулись с obj_wall_dash - уничтожаем его
         if (place_meeting(dash_x, dash_y, obj_wall_dash)) {
             with (instance_place(dash_x, dash_y, obj_wall_dash)) {
             instance_destroy();
 			audio_play_sound(bluebreak, 4, false);
+            }
+        }
+		        if (place_meeting(dash_x, dash_y, obj_wall_dash_1)) {
+            with (instance_place(dash_x, dash_y, obj_wall_dash_1)) {
+            instance_destroy();
+			audio_play_sound(bluebreakseod, 4, false);
             }
         }
        x = dash_x;
@@ -105,7 +117,6 @@ if (cooldown_2 <= 0 && mouse_check_button(mb_right)) {
 // Cooldown decrement
 cooldown -= 1/room_speed;
 cooldown_2 -= 1/room_speed;
-
 // Restart game
 if (keyboard_check(ord("R"))) {
 	audio_stop_all();
@@ -127,3 +138,4 @@ if (keyboard_check(vk_f2)) {
 	audio_stop_all();
     game_restart();
 }
+

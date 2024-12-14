@@ -12,8 +12,8 @@
   "duration":195.504,
   "name":"DOOM_4",
   "parent":{
-    "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "name":"1chapter",
+    "path":"folders/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

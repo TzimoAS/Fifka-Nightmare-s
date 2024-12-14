@@ -12,8 +12,8 @@
   "duration":0.846145,
   "name":"fast3",
   "parent":{
-    "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "name":"1chapter",
+    "path":"folders/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

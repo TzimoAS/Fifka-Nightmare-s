@@ -6,8 +6,8 @@
   "name":"Chocolate_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Объекты/Nightmare/Chapter1/Objects.yy",
+    "name":"Chapter2",
+    "path":"folders/Объекты/Nightmare/Chapter2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"hgf",
-    "path":"sprites/hgf/hgf.yy",
+    "name":"hgf_1",
+    "path":"sprites/hgf_1/hgf_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

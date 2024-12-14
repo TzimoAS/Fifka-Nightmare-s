@@ -12,8 +12,8 @@
   "duration":178.6253,
   "name":"EKSSS",
   "parent":{
-    "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "name":"1chapter",
+    "path":"folders/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

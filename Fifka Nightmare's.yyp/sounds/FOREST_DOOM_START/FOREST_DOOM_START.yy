@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"FOREST_DOOM_START",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":106.272,
+  "name":"FOREST_DOOM_START",
+  "parent":{
+    "name":"2chapter",
+    "path":"folders/Звуки/2chapter.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"FOREST_DOOM_START.mp3",
+  "type":0,
+  "volume":1.0,
+}

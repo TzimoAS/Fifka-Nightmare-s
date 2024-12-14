@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_wall_dash_1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_wall_dash_1",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"DASH",
-    "path":"sprites/DASH/DASH.yy",
+    "name":"treeFALL",
+    "path":"sprites/treeFALL/treeFALL.yy",
   },
   "spriteMaskId":null,
   "visible":true,

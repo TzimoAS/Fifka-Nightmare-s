@@ -12,8 +12,8 @@
   "duration":1.693741,
   "name":"snd_enemy_tank_sound1",
   "parent":{
-    "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "name":"1chapter",
+    "path":"folders/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

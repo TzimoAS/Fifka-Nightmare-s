@@ -12,8 +12,8 @@
   "duration":2.809365,
   "name":"snd_enemy_sound7",
   "parent":{
-    "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "name":"1chapter",
+    "path":"folders/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
