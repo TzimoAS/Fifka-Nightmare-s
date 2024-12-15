@@ -10,8 +10,8 @@
   "name":"obj_timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Объекты/Nightmare/Chapter1/Objects.yy",
+    "name":"Nightmare",
+    "path":"folders/Объекты/Nightmare.yy",
   },
   "parentObjectId":null,
   "persistent":true,

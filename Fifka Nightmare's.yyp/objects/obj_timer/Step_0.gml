@@ -7,7 +7,7 @@ if (room_detector.current_room == "rm_rivals" && !running)
     result_time_string = ""; // Очищаем время результата при начале нового таймера
 }
 
-if (room_detector.current_room == "rm_win4" && running)
+if (room_detector.current_room == "rm_survival" && running)
 {
 	show_result = true; // Показываем результат
     

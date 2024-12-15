@@ -26,6 +26,7 @@ sprite[6] = spr_move_alt;
 sprite[7] = spr_move_alt;
 sprite[8] = spr_idle;
 goldKeys=0;
+Axes=0;
 max_cooldown_width = 200; // Максимальная ширина полоски кулдауна
 
 function draw_cooldown(x, y, current_cooldown, max_cooldown, color, text){

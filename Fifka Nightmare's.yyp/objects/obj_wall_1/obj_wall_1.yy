@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"trees",
-    "path":"sprites/trees/trees.yy",
+    "name":"trees_2",
+    "path":"sprites/trees_2/trees_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

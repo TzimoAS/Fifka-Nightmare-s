@@ -3,10 +3,10 @@ var yMove = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 // 1. Проверка столкновений и движения во время ОБЫЧНОЙ ходьбы (не рывок)
 if (!dashing) {
-    if (place_meeting(x + xMove * spd, y, obj_wall) || place_meeting(x + xMove * spd, y, obj_wall_breakable) || place_meeting(x + xMove * spd, y, obj_wall_1)) {
+    if (place_meeting(x + xMove * spd, y, obj_wall) || place_meeting(x + xMove * spd, y, obj_wall_breakable) || place_meeting(x + xMove * spd, y, obj_wall_1) || place_meeting(x + xMove * spd, y, obj_wall_end) || place_meeting(x + xMove * spd, y, obj_wall_start) || place_meeting(x + xMove * spd, y, obj_wall_2)) {
         xMove = 0;
     }
-    if (place_meeting(x, y + yMove * spd, obj_wall) || place_meeting(x, y + yMove * spd, obj_wall_breakable) || place_meeting(x, y + yMove * spd, obj_wall_1)) {
+    if (place_meeting(x, y + yMove * spd, obj_wall) || place_meeting(x, y + yMove * spd, obj_wall_breakable) || place_meeting(x, y + yMove * spd, obj_wall_1) || place_meeting(x, y + yMove * spd, obj_wall_end) || place_meeting(x, y + yMove * spd, obj_wall_start) || place_meeting(x, y + yMove * spd, obj_wall_2)) {
         yMove = 0;
     }
     if (place_meeting(x + xMove * spd, y, obj_wall_dash)) {
