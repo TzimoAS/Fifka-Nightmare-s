@@ -9,8 +9,8 @@
   "name":"Frager_kyshat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"Fifka Nightmare's",
+    "path":"Fifka Nightmare's.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

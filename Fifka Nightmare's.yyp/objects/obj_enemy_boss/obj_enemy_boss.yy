@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"enemys",
-    "path":"folders/Объекты/Nightmare/Chapter1/enemys.yy",
+    "path":"folders/Fifka Nightmares/Объекты/Nightmare/Chapter1/enemys.yy",
   },
   "parentObjectId":null,
   "persistent":false,

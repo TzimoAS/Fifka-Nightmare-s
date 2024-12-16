@@ -1402,7 +1402,7 @@
   "name":"rm_test_pre_win_1",
   "parent":{
     "name":"Nightmare",
-    "path":"folders/Румы/Nightmare.yy",
+    "path":"folders/Fifka Nightmares/Румы/Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Frager Kyshat",
-    "path":"folders/Спрайты/Frager Kyshat.yy",
+    "path":"folders/Fifka Nightmares/Спрайты/Frager Kyshat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

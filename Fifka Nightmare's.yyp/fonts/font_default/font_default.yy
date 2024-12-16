@@ -459,7 +459,7 @@
   "name":"font_default",
   "parent":{
     "name":"Шрифты",
-    "path":"folders/Шрифты.yy",
+    "path":"folders/Fifka Nightmares/Шрифты.yy",
   },
   "pointRounding":0,
   "ranges":[

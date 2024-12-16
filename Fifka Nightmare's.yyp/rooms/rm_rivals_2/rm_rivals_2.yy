@@ -1192,7 +1192,7 @@
   "name":"rm_rivals_2",
   "parent":{
     "name":"Nightmare",
-    "path":"folders/Румы/Nightmare.yy",
+    "path":"folders/Fifka Nightmares/Румы/Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

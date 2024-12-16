@@ -13,7 +13,7 @@
   "name":"DOOM_4",
   "parent":{
     "name":"1chapter",
-    "path":"folders/Звуки/1chapter.yy",
+    "path":"folders/Fifka Nightmares/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

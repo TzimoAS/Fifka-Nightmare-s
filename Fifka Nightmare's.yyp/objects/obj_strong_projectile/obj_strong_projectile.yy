@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"projectiles",
-    "path":"folders/Объекты/Nightmare/Chapter1/projectiles.yy",
+    "path":"folders/Fifka Nightmares/Объекты/Nightmare/Chapter1/projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

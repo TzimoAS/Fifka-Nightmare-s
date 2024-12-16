@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "path":"folders/Fifka Nightmares/Спрайты.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

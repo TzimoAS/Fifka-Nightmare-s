@@ -13,7 +13,7 @@
   "name":"BREAKS",
   "parent":{
     "name":"Звуки",
-    "path":"folders/Звуки.yy",
+    "path":"folders/Fifka Nightmares/Звуки.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

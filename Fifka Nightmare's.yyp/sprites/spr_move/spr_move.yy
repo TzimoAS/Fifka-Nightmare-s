@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Fifka",
-    "path":"folders/Спрайты/Nightmare/Fifka.yy",
+    "path":"folders/Fifka Nightmares/Спрайты/Nightmare/Fifka.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

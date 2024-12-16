@@ -27,7 +27,7 @@
   "origin":9,
   "parent":{
     "name":"1 chapter",
-    "path":"folders/Спрайты/Nightmare/1 chapter.yy",
+    "path":"folders/Fifka Nightmares/Спрайты/Nightmare/1 chapter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

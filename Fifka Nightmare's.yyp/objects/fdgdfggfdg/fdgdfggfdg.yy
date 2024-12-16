@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"ui",
-    "path":"folders/Объекты/Nightmare/Chapter1/ui.yy",
+    "path":"folders/Fifka Nightmares/Объекты/Nightmare/Chapter1/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

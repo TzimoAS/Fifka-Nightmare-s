@@ -20,7 +20,7 @@
   "name":"rm_main_menu_frager",
   "parent":{
     "name":"Румы",
-    "path":"folders/Румы.yy",
+    "path":"folders/Fifka Nightmares/Румы.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

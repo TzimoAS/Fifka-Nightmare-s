@@ -13,7 +13,7 @@
   "name":"snd_enemy_shooter_sound1",
   "parent":{
     "name":"1chapter",
-    "path":"folders/Звуки/1chapter.yy",
+    "path":"folders/Fifka Nightmares/Звуки/1chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

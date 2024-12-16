@@ -22,7 +22,7 @@
   "name":"rm_win4",
   "parent":{
     "name":"Nightmare",
-    "path":"folders/Румы/Nightmare.yy",
+    "path":"folders/Fifka Nightmares/Румы/Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

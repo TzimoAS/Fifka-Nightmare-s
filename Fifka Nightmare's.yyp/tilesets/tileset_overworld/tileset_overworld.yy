@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tileset_overworld",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":21,
+    "SerialiseWidth":23,
+    "TileCompressedData":[
+      -3,0,4,50,51,51,52,-116,0,1,33,-14,0,3,50,51,52,-4,0,3,42,43,46,-7,0,1,33,-21,0,3,42,43,46,-19,0,5,42,
+      43,44,45,46,-31,0,3,8,9,10,-20,0,3,20,21,22,-72,0,1,8,-3,9,1,10,-18,0,1,20,-3,21,1,22,-76,0,4,8,9,9,
+      10,-19,0,4,20,21,21,22,-19,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"tileset_overworld",
+  "out_columns":9,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Nozy bros/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tile_overworld",
+    "path":"sprites/tile_overworld/tile_overworld.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":1,
+  "tilevsep":1,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":84,
+}

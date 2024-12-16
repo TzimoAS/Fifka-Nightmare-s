@@ -211,7 +211,7 @@
   "name":"rm_kyhat",
   "parent":{
     "name":"Румы",
-    "path":"folders/Румы.yy",
+    "path":"folders/Fifka Nightmares/Румы.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

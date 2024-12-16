@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "path":"folders/Fifka Nightmares/Объекты.yy",
   },
   "parentObjectId":null,
   "persistent":false,

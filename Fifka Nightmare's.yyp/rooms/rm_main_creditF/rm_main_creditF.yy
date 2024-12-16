@@ -23,7 +23,7 @@
   "name":"rm_main_creditF",
   "parent":{
     "name":"Nightmare",
-    "path":"folders/Румы/Nightmare.yy",
+    "path":"folders/Fifka Nightmares/Румы/Nightmare.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

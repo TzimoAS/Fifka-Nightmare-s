@@ -13,7 +13,7 @@
   "name":"FOREST_DOOM_1",
   "parent":{
     "name":"2chapter",
-    "path":"folders/Звуки/2chapter.yy",
+    "path":"folders/Fifka Nightmares/Звуки/2chapter.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

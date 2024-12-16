@@ -16,7 +16,7 @@ sprite[4] = spr_move_alt;
 sprite[5] = spr_move_alt;
 sprite[6] = spr_move_alt;
 sprite[7] = spr_move_alt;
-sprite[8] = spr_idle;
+sprite[8] = spr_idle_fifka;
 goldKeys=0;
 max_cooldown_width = 200; // Максимальная ширина полоски кулдауна
 
