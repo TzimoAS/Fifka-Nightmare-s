@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"_1act_winter_special",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":118.81249,
+  "name":"_1act_winter_special",
+  "parent":{
+    "name":"winter",
+    "path":"folders/Fifka Nightmares/Звуки/winter.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"_1act_winter_special.ogg",
+  "type":0,
+  "volume":1.0,
+}

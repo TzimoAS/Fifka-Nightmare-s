@@ -1,0 +1,1 @@
+boomerang_rotation_speed = 10; // Скорость вращения пули

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sadWinter",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":120.128914,
+  "name":"sadWinter",
+  "parent":{
+    "name":"Winter Special",
+    "path":"folders/Fifka Nightmares/Объекты/Nightmare/Winter Special.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sadWinter.ogg",
+  "type":0,
+  "volume":1.0,
+}

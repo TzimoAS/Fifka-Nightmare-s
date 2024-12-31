@@ -1,1 +1,0 @@
-audio_play_sound(DOOM_7, 6, true);
