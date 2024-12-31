@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Character_Frager",
-    "path":"sprites/Character_Frager/Character_Frager.yy",
+    "name":"Sprite139",
+    "path":"sprites/Sprite139/Sprite139.yy",
   },
   "spriteMaskId":null,
   "visible":true,

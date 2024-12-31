@@ -12,7 +12,7 @@ switch(room)
     case rm_main_menu: 
 	case rm_main_menu2:
 	case rm_main_creditF: 
-        room_music = sadWinter;
+        room_music = sadWinter01;
         break;
 
 //chapter1
